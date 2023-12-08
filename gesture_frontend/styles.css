@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+#videoContainer {
+    margin: 20px auto;
+}
+
+#videoFeed {
+    width: 640px;
+    height: 480px;
+    border: 1px solid #ddd;
+    background-color: #000;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#translationBox {
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+
+#statusBox {
+    margin-top: 10px;
+    color: #ff0000; /* Red color for error messages */
+}
+
+@media only screen and (max-width: 600px) {
+    #videoFeed {
+        width: 100%; /* Responsive design */
+        height: auto;
+    }
+}
